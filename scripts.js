@@ -75,8 +75,6 @@ function playGame() {
         console.log("current score is: ", finalResult)
     }
 
-
-    console.log(finalResult, "last Check")
     if (finalResult > 0) {
         return "You won the game" 
     }
