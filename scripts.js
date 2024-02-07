@@ -1,7 +1,3 @@
-
-console.log("Hello World")
-
-
 function playRound(player, computer) {
 
     console.log(computer, "Computer Choice")
@@ -76,21 +72,21 @@ function playGame() {
 
         finalResult += playRound(playerChoice, computer);
         
-        console.log(finalResult)
+        console.log("current score is: ", finalResult)
     }
 
 
     console.log(finalResult, "last Check")
     if (finalResult > 0) {
-        return "You Won" 
+        return "You won the game" 
     }
 
     else if (finalResult = 0) {
-        return "You Tied"
+        return "You tied the game"
     }
 
     else {
-        return "You Lost"
+        return "You lost the game"
     }
     
 }
