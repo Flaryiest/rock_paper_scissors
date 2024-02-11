@@ -1,0 +1,25 @@
+.results {
+    width: 20vw;
+    height: 20vh;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 8px;
+    background-color: beige;
+    
+    padding: 8px;
+}
+
+.content {
+    color: black;
+    display: flex;
+    align-self: center;
+    flex: 1;
+    
+}
+
+
+
+.title {
+    display: flex;
+    font-weight: 700;
+}
